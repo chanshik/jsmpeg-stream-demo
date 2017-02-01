@@ -18,7 +18,7 @@ Run
 Start streaming WebSocket and homepage server
 ```
 $ node app.js 1111
-Listening for MPEG Stream on http://127.0.0.1:8082/1111/1280/720
+Listening for MPEG Stream on http://127.0.0.1:8082/1111/1024/576
 Awaiting WebSocket connections on ws://127.0.0.1:8084/
 Demo web page listening on http://127.0.0.1:3000
 ```

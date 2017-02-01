@@ -10,8 +10,8 @@ var STREAM_SECRET = process.argv[2],
     STREAM_PORT = process.argv[3] || 8082,
     WEBSOCKET_PORT = process.argv[4] || 8084;
 
-var width = 1280,
-    height = 720;
+var width = 1024,
+    height = 576;
 
 const WebSocket = require('ws');
 const wss = new WebSocket.Server({ port: WEBSOCKET_PORT });
